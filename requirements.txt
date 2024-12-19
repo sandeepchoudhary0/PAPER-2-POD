@@ -1,0 +1,8 @@
+import streamlit as st
+import PyPDF2
+from transformers import pipeline
+from textblob import TextBlob
+from gtts import gTTS
+from pydub import AudioSegment
+import tempfile
+from io import BytesIO
